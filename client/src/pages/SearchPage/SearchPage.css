@@ -1,0 +1,32 @@
+/**
+ * Responsible for containing all the search cards that show as a result of
+ * searching for recipes.
+ */
+ @font-face {
+    font-family: 'Salmaal';
+    src: url(./fonts/SalmaalfasansLight-d9MJx.otf);
+ }
+.search-elements {
+    margin-top: 30px;
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left:75px;
+    padding-right:75px;
+    margin-bottom: 100px;
+}
+.search-page{
+    background-color: #e05c33;
+    --color:#ffffff;
+    font-size: 50px;
+    font-family: 'Lofty';
+    text-align: center;
+}
+.discover-text{
+    font-family: 'Salmaal';
+    font-size: 250%;
+}
+ion-label{
+    font-family: 'Salmaal';
+}

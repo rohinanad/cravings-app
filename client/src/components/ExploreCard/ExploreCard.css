@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'ArianaVioleta';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/ArianaVioleta-dz2K.ttf');
+  }
+@font-face {
+    font-family: 'CrazySummer';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('./fonts/CrazysummerpersonaluseReg-jEqoR.ttf');
+  }
+@font-face {
+    font-family: 'Salmaal';
+    src: url('./fonts/SalmaalfasansLight-d9MJx.otf');
+}
+@font-face{
+    font-family: 'Lofty';
+    font-style: normal;
+    src: url(./fonts/LoftygoalsRegular-9Y5Xy.otf);
+}
+@font-face{
+    font-family: 'Party';
+    font-style: normal;
+    src: url(./fonts/PartyConfettiRegular-eZOn3.ttf);
+}
+ion-card-title{
+    --color: black;
+    font-family: 'Salmaal';
+}
+ion-card-subtitle{
+    --color: #6c6c6c;
+    font-family: 'Salmaal';
+}
+ion-card{
+    border-radius: 7%;
+    background-color: #faf6f4;
+}
